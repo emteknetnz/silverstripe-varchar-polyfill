@@ -1,6 +1,6 @@
 <?php
 
-namespace emtekentnz\VarcharPolyfill;
+namespace Emtekentnz\VarcharPolyfill;
 
 use SilverStripe\Core\ClassInfo;
 use SilverStripe\Core\Config\Config;

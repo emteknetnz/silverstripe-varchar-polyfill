@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "emteknetnz\\VarcharPolyfill\\": "src/"
+            "Emteknetnz\\VarcharPolyfill\\": "src/"
         }
     },
     "prefer-stable": true,

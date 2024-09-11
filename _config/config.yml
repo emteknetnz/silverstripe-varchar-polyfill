@@ -1,7 +1,6 @@
 ---
 Name: emteknetnz-varchar-polyfill
-Before: '#coreconfig'
 ---
 SilverStripe\Core\Injector\Injector:
   DBClassNameVarcharPolyfill:
-    class: emteknetnz\VarcharPolyfill\DBClassNameVarcharPolyfill
+    class: Emtekentnz\VarcharPolyfill\DBClassNameVarcharPolyfill

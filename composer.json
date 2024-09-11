@@ -1,7 +1,7 @@
 {
     "name": "emteknetnz/silverstripe-varchar-polyfill",
     "type": "silverstripe-vendormodule",
-    "description": "Polyfill for pre CMS 5.4 to replace ClassName enum db fields with varchar",
+    "description": "Polyfill for pre CMS 5.4 for DBClassNameVarchar",
     "license": "MIT",
     "authors": [
         {

@@ -1,0 +1,24 @@
+{
+    "name": "emteknetnz/silverstripe-varchar-polyfill",
+    "type": "silverstripe-vendormodule",
+    "description": "Polyfill for pre CMS 5.4 to replace ClassName enum db fields with varchar",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Boyd"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.1",
+        "silverstripe/framework": "^4 || ^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "emtekentnz\\VarcharPolyfill\\": [
+                "src/"
+            ]
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

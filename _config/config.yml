@@ -1,14 +1,7 @@
 ---
 Name: emteknetnz-varchar-polyfill
+Before: '#coreconfig'
 ---
 SilverStripe\Core\Injector\Injector:
   DBClassNameVarcharPolyfill:
     class: emteknetnz\VarcharPolyfill\DBClassNameVarcharPolyfill
-
-SilverStripe\ORM\DataObject:
-  fixed_fields:
-    ClassName: DBClassNameVarcharPolyfill
-
-SilverStripe\ORM\FieldType\DBPolymorphicForeignKey:
-  composite_db:
-    Class: "DBClassNameVarcharPolyfill('SilverStripe\\ORM\\DataObject', ['index' => false])"

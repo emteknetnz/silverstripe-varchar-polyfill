@@ -1,5 +1,8 @@
 <?php
 
+// Note that this namespace MUST start with a capitial letter, otherwise it will not be autoloaded
+// properly and there will be a fatal interaction between the Silverstripe ClassLoader and the
+// composer class loader
 namespace Emtekentnz\VarcharPolyfill;
 
 use SilverStripe\Core\ClassInfo;

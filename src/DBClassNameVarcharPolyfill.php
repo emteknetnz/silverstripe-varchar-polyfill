@@ -44,7 +44,7 @@ class DBClassNameVarcharPolyfill extends DBVarchar
     public function __construct($name = null, $baseClass = null, $options = [])
     {
         $this->setBaseClass($baseClass);
-        parent::__construct($name, null, null, $options);
+        parent::__construct($name, 255, $options);
     }
 
     /**
